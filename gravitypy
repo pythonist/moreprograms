@@ -1,0 +1,10 @@
+mass1=float(input("Enter the first mass: "))
+mass2=float(input("Enter the second mass: "))
+r=float(input("Enter the distance between the centres of the masses: "))
+G=6.673*(10**-11)
+f=(G*mass1*mass2)/(r**2)
+print("Hence, the gravitational force is: ",round(f,2),"N")
+if f<1000000N:
+  print("It is a black hole!!!)
+ else:
+ print("we are safe")
